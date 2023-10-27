@@ -1,0 +1,40 @@
+.topics{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    margin-left: 2em;
+}
+button{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 600;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 120px;
+    letter-spacing: 10px;
+    display: block;
+    
+}
+button:hover{
+    background-color: red;
+}
+body{
+    background-image: url('images/backgroundImage.png');
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.bob{
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; 
+    margin-left: 250px;
+}
+img{
+    height: 600px;
+    width: 600px;
+}
