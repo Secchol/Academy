@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!DOCTYPE HTML>
 <html lang="bg" itemscope itemtype="http://schema.org/WebPage">
@@ -4569,3 +4570,95 @@ d-md-block">
 </footer>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="7b358ecf5c38d5cb7e4e0236-|49" defer></script></body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Photography Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link href="./home.css" rel="stylesheet" />
+  <link href="./responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div>
+
+    <div class="home-container">
+      <header class="navigation-header">
+        <div class="navigation-max-width">
+          <img alt="logo" src="./images/logol.png" class ="logo"/>
+          <div class="navigation-nav">
+            <nav class="navigation-links-nav navigation-links-root-class-name17">
+              <span class="navigation-links-text Navigation-Link">
+                <span>HOME</span>
+              </span>
+              <span class="navigation-links-text1 Navigation-Link">
+                <span>ABOUT US</span>
+              </span>
+              <span class="navigation-links-text2 Navigation-Link">
+                <span>DISCOVER TOPICS</span>
+              </span>
+              <span class="navigation-links-text3 Navigation-Link">
+                <span>PATCH NOTES</span>
+              </span>
+            </nav>
+            <button class="button-secondary button button-md">
+              <span>PLAY NOW</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="images/town.jpg" style="width:100%" class="slideshow-image">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="images/photographer.jpeg" style="width:100%" class="slideshow-image" >
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="D:\IMAGES/abce.jfif" style="width:100%" class="slideshow-image">
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+
+
+
+</html>
+>>>>>>> edf363a238170b653b1cbd5f914fbc1b9b863abb
