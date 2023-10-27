@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background: url('https://media.discordapp.net/attachments/1167125325986144378/1167492262851256400/background.png?ex=654e52e6&is=653bdde6&hm=30090069d9bc9f3c7f9dd15272a4a38c90a7c661b282484d85ac83ca0bf5544c&=&width=1609&height=905');
+    background: rgb(164, 143, 207)
   }
   .container {
     height: 31.25em;
@@ -263,7 +263,7 @@
     padding-left: 10em;
 
     margin-left: 25em;
-    margin-top: 25.6em;
+    margin-top: 27em;
     
   }
 
@@ -276,11 +276,12 @@
     color: white;
     text-align: center;
 
-    padding: 3em;
+    padding: 1em;
 
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .socials{
@@ -288,9 +289,17 @@
     flex-direction: row-reverse;
     list-style-type: none;
     gap: 2em;
-    justify-content: center;
-  }
-
- 
   
- 
+  }
+ .panda-image{
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: 5em;
+ }
+
+ .header{
+  top:0;
+  object-fit: fill;
+  max-height: 2em;
+ }
